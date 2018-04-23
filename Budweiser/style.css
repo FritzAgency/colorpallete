@@ -1,0 +1,143 @@
+
+/*
+
+The styling for the registration page goes here. 
+
+*/  
+
+body{
+
+
+   background-image: url("budweisernew.png");	
+   
+   background-repeat:no-repeat;
+
+  background-size:cover;
+  
+  font-family:'Bud Bold', sans-serif; 
+
+	
+}	
+
+/*
+styling for the top heading image. 
+*/ 
+
+.heading{
+	
+	/*margin-top: 100px; */
+    margin: auto;
+    max-width: 800px;	
+}
+
+
+
+/*
+
+styling for the form rows
+*/
+
+#formstyle{
+
+margin-top: 30px;
+ 	
+}
+
+
+/*
+add color to the textbox
+*/ 
+.text-box::placeholder{
+
+color: #da1a32;
+	
+}
+
+
+/*
+
+styling for the form
+
+*/
+
+.text-box{
+width: 500px; 
+
+height: 70px; 	
+
+font-size: 24px; 	
+
+color: #da1a32;
+	
+}	
+
+
+/*
+styling to center the form container
+*/
+.middle{
+margin: auto;
+
+max-width: 500px;
+
+margin-top: 50px;
+	
+}
+
+
+/*
+
+the submit button styling. 
+*/
+
+
+.button{
+
+background-color: #da1a32;
+
+width: 150px;
+
+margin-top: 40px; 
+
+border: 1px solid white;
+
+color: white; 
+
+fon-tsize: 30px; 
+	
+}	
+
+
+/*
+
+styling for the checkbox
+*/
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  /*-ms-transform: scale(5); /* IE */
+  /*-moz-transform: scale(5); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  /*-o-transform: scale(5); /* Opera */
+  /*padding: 0px;
+  /*margin-top: 5px; */ 
+  /*background-color: white;
+  
+  margin-top: 10px;  */ 
+}
+
+label {
+  /*display: inline-block;*/ 
+  /*width: 200px;*/ 
+}
+
+label input {
+  float:left;
+}
+
+label span {
+ /* display: block;
+  overflow: auto;*/
+}
+

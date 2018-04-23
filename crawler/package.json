@@ -1,0 +1,20 @@
+{
+  "name": "crawler",
+  "version": "0.0.1",
+  "description": "my meme crawler",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "meme"
+  ],
+  "author": "Abiodun Adetona",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.16.3",
+    "js-crawler": "^0.3.20",
+    "nodemon": "^1.17.2"
+  }
+}
